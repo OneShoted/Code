@@ -1,6 +1,4 @@
 
-
-
 class Main(Frame):
     def __init__(self, root):
         super(Main, self).__init__(root)
@@ -30,7 +28,7 @@ class Main(Frame):
             if x > 400:
                 x = 10
                 y += 81
-
+#Калькулятор майбутнього
     def logicalc(self, operation):
         if operation == "C":
             self.formula = ""
